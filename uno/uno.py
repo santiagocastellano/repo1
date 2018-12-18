@@ -1,21 +1,3 @@
-# coding: UTF-8
-'''
-Created on Jun 17, 2014
-
-@author: hernan
-'''
-
-import re
-
-from usig_normalizador_amba.StringDireccion import StringDireccion
-from usig_normalizador_amba.Callejero import Callejero
-from usig_normalizador_amba.Calle import Calle
-from usig_normalizador_amba.Errors import ErrorTextoSinDireccion, ErrorCalleInexistente, ErrorCruceInexistente, ErrorCalleInexistenteAEsaAltura
-from usig_normalizador_amba.Direccion import Direccion
-from usig_normalizador_amba.settings import default_settings
-from usig_normalizador_amba.settings import CALLE, CALLE_ALTURA, CALLE_Y_CALLE
-from usig_normalizador_amba.settings import MATCH_EXACTO, MATCH_PERMUTADO, MATCH_INCLUIDO, MATCH
-from usig_normalizador_amba.commons import matcheaTexto
 
 
 class NormalizadorDirecciones:
